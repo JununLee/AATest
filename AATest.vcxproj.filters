@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\angleWidget">
+      <UniqueIdentifier>{9c76da8d-3f0d-46b7-a7bb-2f55fd134498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\distanceWidget">
+      <UniqueIdentifier>{e8e25bc4-d1b1-4302-804f-b0bdad42fd4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\handleWidget">
+      <UniqueIdentifier>{12c08356-c8ae-44a3-873e-573aae3cc4f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\contourWidget">
+      <UniqueIdentifier>{aab01f89-04f0-46b0-bed8-000ddd3b56c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\OpenGLShader">
+      <UniqueIdentifier>{061ddaac-0917-42d2-9f8f-a25e74cf9af6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\widgetTest">
+      <UniqueIdentifier>{adb84e10-64a6-4a32-91d8-e0f9f3b54b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\marchingCube">
+      <UniqueIdentifier>{43a2e6c5-d781-4428-9c77-007fc908d8b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\volumeWidget">
+      <UniqueIdentifier>{fcd81eca-55f6-449d-b2f3-f78901fd5356}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ATest.cpp">
+      <Filter>源文件\OpenGLShader</Filter>
+    </ClCompile>
+    <ClCompile Include="vtkOpenGLShaderPolyDataMapper.cpp">
+      <Filter>源文件\OpenGLShader</Filter>
+    </ClCompile>
+    <ClCompile Include="vtkScreenPostProcessingPass.cpp">
+      <Filter>源文件\OpenGLShader</Filter>
+    </ClCompile>
+    <ClCompile Include="WidgetTest.cpp">
+      <Filter>源文件\widgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="myTestRepresentation.cpp">
+      <Filter>源文件\widgetTest</Filter>
+    </ClCompile>
+    <ClCompile Include="marchingCube.cpp">
+      <Filter>源文件\marchingCube</Filter>
+    </ClCompile>
+    <ClCompile Include="keyinDistanceRepresentation.cpp">
+      <Filter>源文件\distanceWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="keyinActor2D.cpp">
+      <Filter>源文件\distanceWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="keyinHandleRepresentation.cpp">
+      <Filter>源文件\handleWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="keyinLinearMeasure.cpp">
+      <Filter>源文件\distanceWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="keyinAngleWidget.cpp">
+      <Filter>源文件\angleWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="keyinAngleRepresentation.cpp">
+      <Filter>源文件\angleWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="keyinAngleActor.cpp">
+      <Filter>源文件\angleWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="keyinAngleMeasure.cpp">
+      <Filter>源文件\angleWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="vtkImageActorPointPlacerLTY.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="keyinContourWidget.cpp">
+      <Filter>源文件\contourWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="keyinContourRepresentation.cpp">
+      <Filter>源文件\contourWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="keyinGlyphContourRepresentation.cpp">
+      <Filter>源文件\contourWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="keyinLinearContourLineInterpolator.cpp">
+      <Filter>源文件\contourWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="keyinContourLineInterpolator.cpp">
+      <Filter>源文件\contourWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="keyinVolumeWidget.cpp">
+      <Filter>源文件\volumeWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="keyinVolumeRepresentation.cpp">
+      <Filter>源文件\volumeWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="keyinVolumeCalculate.cpp">
+      <Filter>源文件\volumeWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="keyinContour.cpp">
+      <Filter>源文件\contourWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="vtkFramTextureOpenGLRender.cpp">
+      <Filter>源文件\OpenGLShader</Filter>
+    </ClCompile>
+    <ClCompile Include="keyinDistanceWidget.cpp">
+      <Filter>源文件\distanceWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="OffScreen1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OffScreen2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NailEffect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VolumeRender.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PointCloudICP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vtkScreenPostProcessingPass.h">
+      <Filter>源文件\OpenGLShader</Filter>
+    </ClInclude>
+    <ClInclude Include="vtkFramTextureOpenGLRender.h">
+      <Filter>源文件\OpenGLShader</Filter>
+    </ClInclude>
+    <ClInclude Include="vtkOpenGLShaderPolyDataMapper.h">
+      <Filter>源文件\OpenGLShader</Filter>
+    </ClInclude>
+    <ClInclude Include="myTestRepresentation.h">
+      <Filter>源文件\widgetTest</Filter>
+    </ClInclude>
+    <ClInclude Include="keyinDistanceRepresentation.h">
+      <Filter>源文件\distanceWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="keyinActor2D.h">
+      <Filter>源文件\distanceWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="keyinHandleRepresentation.h">
+      <Filter>源文件\handleWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="keyinLinearMeasure.h">
+      <Filter>源文件\distanceWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="keyinAngleWidget.h">
+      <Filter>源文件\angleWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="keyinAngleRepresentation.h">
+      <Filter>源文件\angleWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="keyinAngleActor.h">
+      <Filter>源文件\angleWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="keyinAngleMeasure.h">
+      <Filter>源文件\angleWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="vtkImageActorPointPlacerLTY.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="keyinContourWidget.h">
+      <Filter>源文件\contourWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="keyinContourRepresentation.h">
+      <Filter>源文件\contourWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="keyinGlyphContourRepresentation.h">
+      <Filter>源文件\contourWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="keyinLinearContourLineInterpolator.h">
+      <Filter>源文件\contourWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="keyinContourLineInterpolator.h">
+      <Filter>源文件\contourWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="keyinContour.h">
+      <Filter>源文件\contourWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="keyinVolumeWidget.h">
+      <Filter>源文件\volumeWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="keyinVolumeRepresentation.h">
+      <Filter>源文件\volumeWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="keyinVolumeCalculate.h">
+      <Filter>源文件\volumeWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="keyinDistanceWidget.h">
+      <Filter>源文件\distanceWidget</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

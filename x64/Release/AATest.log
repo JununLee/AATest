@@ -1,0 +1,6 @@
+﻿  正在生成代码
+  All 2578 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+StaticControl.lib(ImageControl.obj) : warning LNK4099: 未找到 PDB“StaticControl.pdb”(使用“StaticControl.lib(ImageControl.obj)”或在“E:\VTK-8.2.0\cm_VTK-8.2.0\x64\Release\StaticControl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+StaticControl.lib(VolumeProperty.obj) : warning LNK4099: 未找到 PDB“StaticControl.pdb”(使用“StaticControl.lib(VolumeProperty.obj)”或在“E:\VTK-8.2.0\cm_VTK-8.2.0\x64\Release\StaticControl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  AATest.vcxproj -> E:\VTK-8.2.0\cm_VTK-8.2.0\x64\Release\AATest.exe
